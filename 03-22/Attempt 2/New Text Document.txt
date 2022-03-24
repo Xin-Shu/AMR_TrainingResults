@@ -1,0 +1,4 @@
+DONE:
+	1. Added Grain effect AFTER the scratches are added. The degraded frames now look much more like the test frames.
+	    Parameters used for Gaussian Normal Distribution: mean=0, variance=100, sigma=variance **0.5, 
+									       function=np.random.normal(mean, sigma, row * col)

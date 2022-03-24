@@ -1,0 +1,10 @@
+The traing and validation set doesn't have much frames that have any scratches,
+reason of that is simply because the cropping algorithm crops from the entire frame while only 
+limited regions contain scratches.
+
+This makes the validation loss even lower than training loss because most of predtions are negative.
+
+TODO:
+	1. Should improve the cropping algorithm so that the vertical assembled frames are cropped from
+	    scratched area.
+	2. Might be a good idea to increase the size of training and validation set.
